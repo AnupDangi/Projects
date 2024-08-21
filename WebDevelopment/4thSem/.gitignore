@@ -1,0 +1,16 @@
+#Node modules
+node_modules
+
+#For environment secret key and database url
+.env
+
+#packages
+package-lock.json
+package.json
+
+#Logs
+npm-debug.log*
+
+#ChatGPT API
+api.js
+

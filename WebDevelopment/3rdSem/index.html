@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/31224ab5fd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul>
+             <li> <a href="#header">Home</a></li> 
+             <li> <a href="#about">About</a></li> 
+             <li> <a href="#services">Services</a></li> 
+             <li> <a href="#Blogs">Blogs</a></li> 
+             <li> <a href="#contact">Contact</a></li>   
+            </ul>
+          <!--  <i class="fa-solid fa-xmark"></i>
+            <i class="fa-solid fa-bars"></i>--> 
+        </nav>
+        <div class="header-text">
+            <br>
+            <div class="img"> 
+                <img src="images/background3.jpg" alt="" height="400px" width="600px">
+            </div> 
+            <h1> Hi, I'm <span>Anup Dangi</span><br>from Nepal</h1>
+            <p>Student</p>
+        </div>
+    </div>   
+</div>  
+<!-------------------about-------------->
+<div id="about">
+    <div class="container">
+        <div id="aboutme"></div>
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.jpeg" alt="" height="300px" width="300px">
+            </div>
+            <div class="about-col-2">
+                <h1  class="sub-title">About Me</h1>
+                <p>
+                    Greetings! I'm Anup Dangi, currently pursuing Bachelor's in Artificial Intelligence and Machine Learning  at CMR Institute of Technology in Bangalore, India. Hailing from Nepal,
+                     I find immense joy and passion in unraveling the mysteries of artificial intelligence and exploring its transformative potential. My journey in BE AIML not only involves academic pursuits but also a continuous exploration of cutting-edge technologies and their real-world applications. I am driven by the belief that AI has the power to shape a better future, and I'm excited to be part of this dynamic field, contributing to its evolution and impact.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="opentab(event,'Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab(event,'Hobbies')">Hobbies</p>
+                        <p class="tab-links" onclick="opentab(event,'Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span> Web development</span><br> Java</li>
+                            <li><span> C</span><br>Numerology</li>
+                            <li><span> Neuro Linguistic Programming</span><br>Python</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Hobbies">
+                        <ul>
+                            <li><span> Basketball</span><br> Video Games</li>
+                            <li><span>Cricket</span><br>Football</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span> 2020- Primary School Level</span><br>Ideal Model School,Lalitpur</li>
+                            <li><span> 2022-Secondary School Level</span><br>Uniglobe,Kamaladi,Kathmandu</li>
+                            <li><span> Graduation-2026-AIML </span><br>CMRIT,Bangalore</li>
+                        </ul>
+                    </div>
+                    </div>
+        </div>
+    </div>
+</div>
+<!--------------services-------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title"> My Skills</h1>
+        <div class="services-list">
+        <div> 
+            <i class="fa-solid fa-code"></i>
+            <h2>Web development </h2>
+                <p>Web development refers to the process of creating and maintaining websites or web applications. It involves a combination of programming, design, and problem-solving skills to build functional and visually appealing websites. Web development encompasses two main components: front-end development, which focuses on the user interface and user experience, and back-end development, which deals with server-side logic and database management. Common technologies in web development include HTML, CSS, JavaScript, and various frameworks and libraries.</p>
+                <a href="#"> Learn more</a>
+        </div>
+        <div> 
+            <i class="fa-solid fa-atom"></i>
+            <h2>Numerology</h2>
+                <p>Numerology is a belief in the mystical significance of numbers and their influence on human life. It is often associated with the idea that numbers can have hidden meanings and can be used to gain insights into one's personality, behavior, and even destiny. Practitioners of numerology use various methods to analyze and interpret numbers, such as the birth date or the numerical value of a person's name.</p>
+                    <a href="#"> Learn more</a>
+        </div> 
+        <div> 
+            <i class="fa-brands fa-python"></i>
+            <h2>Python</h2>
+                <p>Python is a high-level, general-purpose programming language known for its simplicity and readability. Created by Guido van Rossum, Python has become one of the most popular programming languages due to its versatility and ease of use. It supports multiple programming paradigms, including procedural, object-oriented, and functional programming. Python is widely used in various domains, including web development, data science, artificial intelligence, automation, and more. It has a large and active community, making it a favorite choice for both beginners and experienced developers.</p> 
+                    <a href="#"> Learn more</a>
+        </div>  
+        </div>
+    </div>
+</div>
+<!----------------Portfolio-------------->
+
+<div id="Blogs">
+    <div class="container">
+        <h1 class="sub-title"> My Blogs</h1>
+        <div class="work-list">
+            <div class="work">
+            <img src="images/work-1.png">
+            <div class="layer">
+
+                <h3>Social Media App</h3>
+                <p>The app connects you to the talented people around the world.
+                    Download it from play store.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/work-2.png">
+            <div class="layer">
+
+                <h3>Music App</h3>
+                <p>The app connects you to the talented people around the world.
+                    Download it from play store.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+        </div>
+
+        <div class="work">
+            <img src="images/work-3.png">
+            <div class="layer">
+                <h3>Online Shopping App</h3>
+                <p>The app connects you to the talented people around the world.
+                    Download it from play store.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="btn"> See more</a>
+    </div>
+</div>
+<!--------------Contact----------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+          <div class="contact-left">
+          <h1 class="sub-title"> Contact Me</h1>
+          <p><i class="fa-solid fa-paper-plane"></i> anupdangi1589@gmail.com</p>
+          <p><i class="fa-solid fa-phone"> </i>    8073133926</p>
+
+          <div class="social-icons">
+            <a href="https://www.facebook.com/Anup.Dangi111/"target=" "><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/anupdangi11/"target=" "> <i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/AnupDangi"><i class="fa-brands fa-github"target=" "></i></a>
+            <a href="https://www.linkedin.com/in/anup-dangi/"target=" "><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <a href="images/my-cv.pdf" target=" " download class="btn btn2">Download CV</a>
+        </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+    </div>
+</div>
+    <div class="copyright">
+       <p>Copyright <i class="fa-regular fa-copyright"></i> Anup Dangi <i class="fa-solid fa-heart"></i> </p>
+    </div>
+
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(event, tabname) {
+        for (tablink of tablinks) {
+            tablink.classList.remove("active-links");
+        }
+        for (tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-links");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<form name="submit-to-google-sheet">
+</form>
+
+<script>
+    //This script of google sheets this may be expried get a new api to fetch the data
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbysxtCLGG9Knk4sVgyaU6KlBxUi1_aAkrHh7wl5pHPcIa4UxgO2qhK18SYV1lCbhUfF/exec'
+  const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML="Message sent successfully"
+        setTimeout(function()
+        {
+            msg.innerHTML=""
+        },1000)
+        form.reset()
+      })
+
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+</body>
+</html>
